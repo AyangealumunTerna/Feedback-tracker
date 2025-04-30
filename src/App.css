@@ -1,0 +1,95 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* style for feedBack */
+
+.feedback-btn{
+  background-color: #525cf3;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: auto 1rem;
+  transition: background-color 0.3s ease;
+  text-shadow: 1px 1px 2px #000;
+}
+.feedback-btn:hover{
+  background-color: #090cd6;
+}
+
+.feedback-container p{
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  font-weight: 600;
+
+}
+.progress-bars {
+  margin-top: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.progress-bar {
+  height: 25px;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.good {
+  background-color: #4caf50;
+}
+
+.neutral {
+  background-color: #ff9800;
+}
+
+.bad {
+  background-color: #f44336;
+}
