@@ -44,13 +44,13 @@ function Feedback() {
 
                 <h2>Statistics</h2>
                 <div className="progress-bars">
-                    <div className="progress-bar good" style={{ width: `${(good / total) * 100 || 0}%` }}>
+                    <div className="progress-bar good" style={{ width: `${(good / total) * 100 || 0}%` }}> 
                         {good > 0 && `${Math.round((good / total) * 100)}% Good`}
                     </div>
                     <div className="progress-bar neutral" style={{ width: `${(neutral / total) * 100 || 0}%` }}>
-                        {neutral > 0 && `${Math.round((neutral / total) * 100)}% Neutral`}
+                         {neutral > 0 && `${Math.round((neutral / total) * 100)}% Neutral`}
                     </div>
-                    <div className="progress-bar bad" style={{ width: `${(bad / total) * 100 || 0}%` }}>
+                    <div className="progress-bar bad" style={{ width: `${(bad / total) * 100 || 0}%` }}> 
                         {bad > 0 && `${Math.round((bad / total) * 100)}% Bad`}
                     </div>
                 </div>
